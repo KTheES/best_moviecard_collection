@@ -7,7 +7,7 @@ import './App.css'
 function App() {
 
   return(
-    <Router>
+    <Router basename="/best_moviecard_collection">
       <Routes>
       {/* 루트 경로 */}
       <Route path="/" element={<Home />} />
